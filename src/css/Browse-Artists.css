@@ -1,0 +1,24 @@
+#discover-artists a.browse-artists {
+    display:inline-block;
+    text-decoration:none;
+    color:var(--extra-color);
+    background:var(--secondary-color);
+    padding:10px;
+    border-radius:10px;
+}
+
+#discover-artists a.browse-artists:hover {
+    display:inline-block;
+    text-decoration:none;
+    color:var(--secondary-color);
+    background:var(--main-background-color);
+    padding:10px;
+    border-radius:10px;
+}
+
+#artist-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}

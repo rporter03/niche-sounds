@@ -1,0 +1,53 @@
+/* Navigation */
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color:black;
+    margin:6px 0;
+}
+
+#main-nav ul {
+    padding-left:0;
+}
+
+#main-nav li {
+    list-style-type:none;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+#main-nav a {
+    text-decoration:none;
+    color:var(--extra-color);
+}
+
+#main-nav a:hover, #login-nav a:hover {
+    color:var(--secondary-color);
+    
+    padding:5px;
+    border-radius:5px;
+    border-bottom:2px solid var(--secondary-color);
+}
+
+#login-nav {
+    position:absolute;
+    top:2.5%;
+    right:2.5;
+}
+
+#login-nav a {
+    color:var(--extra-color);
+    padding:5px;
+    text-decoration:none;
+    border-bottom:2px solid transparent;
+}
+
+#login-nav ul {
+    margin:0;
+    padding-left:0;
+}
+
+#login-nav li {
+    list-style-type:none;
+    margin-bottom:10px;
+}

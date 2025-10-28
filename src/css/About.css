@@ -1,0 +1,38 @@
+#about h3 {
+    text-align:center;
+}
+
+#about p {
+    text-align:left;
+    background-color: rgba(158, 163, 245, 0.8);
+    padding:5%;
+    border-radius:10px;
+}
+
+#about img, #discover-artists img {
+    display:block;
+    margin:auto;
+    margin-top:20px;
+    border-radius:10px;
+    max-width:300px;
+    max-height:300px;
+}
+
+.about-row, .discover-row {
+    align-items:center;
+    margin-bottom:50px;
+    background-color:var(--tertiary-color);
+    border-radius:10px;
+    padding:5%;
+}
+
+.about-row.reverse {
+    flex-direction:row-reverse;
+}
+
+.about-p {
+    text-align:left;
+    padding:5%;
+    border-radius:10px;
+    margin:0;
+}

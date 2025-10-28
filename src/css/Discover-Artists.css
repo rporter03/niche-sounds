@@ -1,0 +1,15 @@
+#discover-artists {
+    text-align:center;
+}
+
+#discover-artists p {
+    background:var(--tertiary-color);
+    padding:10px;
+    border-radius:10px;
+    max-width:75%;
+    margin:auto;
+}
+
+#discover-artists button {
+   margin-top:20px;
+}
