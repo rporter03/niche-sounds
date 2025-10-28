@@ -23,4 +23,4 @@ const DiscoverArtists = () => {
     );
 };
 
-export default DsicoverArtists;
+export default DiscoverArtists;
