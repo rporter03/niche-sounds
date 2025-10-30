@@ -17,7 +17,7 @@ const Forums = () => {
                 </div>
                 <div class="forum-row">
                     <div>
-                        <a href="#" class="post-title">The Revival of Vinyl</a>
+                        <a href="https://www.google.com/webhp?authuser=0" class="post-title">The Revival of Vinyl</a>
                     </div>
                     <div class="count">1</div>
                     <div class="count">1</div>
@@ -28,7 +28,7 @@ const Forums = () => {
                 </div>
                 <div class="forum-row">
                     <div>
-                        <a href="#" class="post-title">What's your favorite band/artist?</a>
+                        <a href="https://www.google.com/webhp?authuser=0" class="post-title">What's your favorite band/artist?</a>
                     </div>
                     <div class="count">3</div>
                     <div class="count">6</div>
@@ -39,7 +39,7 @@ const Forums = () => {
                 </div>
                 <div class="forum-row">
                     <div>
-                        <a href="#" class="post-title">Hidden Gems: Underrated Albums That Deserve More Recognition</a>
+                        <a href="https://www.google.com/webhp?authuser=0" class="post-title">Hidden Gems: Underrated Albums That Deserve More Recognition</a>
                     </div>
                     <div class="count">9</div>
                     <div class="count">17</div>
@@ -50,7 +50,7 @@ const Forums = () => {
                 </div>
                 <div class="forum-row">
                     <div>
-                        <a href="#" class="post-title">The Most Overated Genre...</a>
+                        <a href="https://www.google.com/webhp?authuser=0" class="post-title">The Most Overated Genre...</a>
                     </div>
                     <div class="count">5</div>
                     <div class="count">11</div>

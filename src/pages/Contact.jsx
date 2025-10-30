@@ -14,7 +14,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="slideshow">
-                    <img src="images/music-note.svg"/>
+                    <img src="images/music-note.svg" alt="Music Note Picture"/>
                 </div>
                 <section className="one">
                     <form method="POST" id="contact-form">
