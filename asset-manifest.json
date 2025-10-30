@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/niche-sounds/static/css/main.70b41b16.css",
-    "main.js": "/niche-sounds/static/js/main.e6bcb3ed.js",
+    "main.js": "/niche-sounds/static/js/main.9b0f33dc.js",
     "index.html": "/niche-sounds/index.html",
     "main.70b41b16.css.map": "/niche-sounds/static/css/main.70b41b16.css.map",
-    "main.e6bcb3ed.js.map": "/niche-sounds/static/js/main.e6bcb3ed.js.map"
+    "main.9b0f33dc.js.map": "/niche-sounds/static/js/main.9b0f33dc.js.map"
   },
   "entrypoints": [
     "static/css/main.70b41b16.css",
-    "static/js/main.e6bcb3ed.js"
+    "static/js/main.9b0f33dc.js"
   ]
 }
