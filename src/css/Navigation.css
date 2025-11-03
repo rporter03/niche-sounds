@@ -21,9 +21,8 @@
     color:var(--extra-color);
 }
 
-#main-nav a:hover, #login-nav a:hover {
+#main-nav ul a:hover, #login-nav a:hover {
     color:var(--secondary-color);
-    
     padding:5px;
     border-radius:5px;
     border-bottom:2px solid var(--secondary-color);
@@ -50,4 +49,32 @@
 #login-nav li {
     list-style-type:none;
     margin-bottom:10px;
+}
+
+#toggle-nav {
+    display:block;
+    color:white;
+    text-decoration:none;
+    font-size:2em;
+}
+
+#toggle-nav:hover {
+    padding:0;
+    border-bottom:none;
+    border-radius:0;
+    color:white;
+}
+
+@media screen and (min-width: 768px) {
+    #main-nav .hide-small {
+        display:flex;
+    }
+
+    #main-nav li {
+        border-bottom:0;
+    }
+
+    #toggle-nav {
+        display:none;
+    }
 }

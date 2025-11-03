@@ -35,3 +35,7 @@
     margin-bottom:5px;
     color:var(--extra-color);
 }
+
+.hidden {
+    display:none;
+}
