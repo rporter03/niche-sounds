@@ -1,4 +1,5 @@
 import './../css/About.css';
+import musicNote from './../images/music.jpg'
 
 const About = () => {
     return (
@@ -10,7 +11,7 @@ const About = () => {
                         <p>You might be asking yourself right now... "what are niche sounds?" But the question you <em>need</em> to know is, what IS Niche Sounds? Well, I'm here to answer that! Niche Sounds is a cool website where I, as well as other users such as yourself, share cool, unknown songs and artists for anybody to discover!</p>
                     </div>
                     <div className="one about-img">
-                        <img src="images/music.jpg" alt="Music Note Picture" />
+                        <img src={musicNote} alt="Music Note Picture" />
                     </div>
                  </section>
                  <section className="columns about-row reverse">
@@ -19,7 +20,7 @@ const About = () => {
                         <p>My purpose is simply to provide a space where people can share and discover amongst themselves. Niche Sounds is also a place of musical discussion; yap about all of your interests here!</p>
                     </div>
                     <div className="one about-img">
-                        <img src="images/music.jpg" alt="Music Note Picture" />
+                        <img src={musicNote} alt="Music Note Picture" />
                     </div>
                  </section>
         </main>

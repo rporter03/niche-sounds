@@ -1,4 +1,7 @@
 import './../css/Home.css';
+import forthWanderers from './../images/forth-wanderers.jpg';
+import theStrokes from './../images/the-strokes.jpg';
+import battles from './../images/battles.jpg';
 
 const Home = () => {
     return (
@@ -10,7 +13,7 @@ const Home = () => {
                         <a href="#">
                             <h3>Forth Wanderers</h3>
                             <p>Alternative, Indie</p>
-                            <img src="images/forth-wanderers.jpg" alt="Forth Wanderers"/>
+                            <img src={forthWanderers} alt="Forth Wanderers"/>
                             <p class="artist-link">Visit Artist Portfolio Here</p>
                         </a>
                     </div>
@@ -18,7 +21,7 @@ const Home = () => {
                         <a href="https://www.google.com/webhp?authuser=0">
                             <h3>The Strokes</h3>
                             <p>Alternative, Indie, Rock</p>
-                            <img src="images/the-strokes.jpg" alt="The Strokes"/>
+                            <img src={theStrokes} alt="The Strokes"/>
                             <p class="artist-link">Visit Artist Portfolio Here</p>
                         </a>
                     </div>
@@ -26,7 +29,7 @@ const Home = () => {
                         <a href="https://www.google.com/webhp?authuser=0">
                             <h3>Battles</h3>
                             <p>Alternative, Indie</p>
-                            <img src="images/battles.jpg" alt="Battles"/>
+                            <img src={battles} alt="Battles"/>
                             <p class="artist-link">Visit Artist Portfolio Here</p>
                         </a>
                     </div>

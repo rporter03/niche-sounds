@@ -1,4 +1,5 @@
 import './../css/Discover-Artists.css';
+import recordImage from './../images/records.webp';
 
 const DiscoverArtists = () => {
     return (
@@ -13,7 +14,7 @@ const DiscoverArtists = () => {
                     <p>Looking for artists to discover? Search here! Get started by clicking the dropdown menu to search by genre and find the portfolios of artists you've never heard of who make the music you love!</p>
                 </div>
                 <div class="one">
-                    <img src="images/records.webp" alt="Record Stack Image"/>
+                    <img src={recordImage} alt="Record Stack Image"/>
                 </div>
             </section>
             <div>

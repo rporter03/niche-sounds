@@ -1,5 +1,6 @@
 import './../css/Contact.css';
 import {useState} from 'react';
+import musicNote from './../images/music-note.jpg'
 
 const Contact = () => {
 
@@ -47,7 +48,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="slideshow">
-                    <img src="images/music-note.svg" alt="Music Note Picture"/>
+                    <img src={musicNote} alt="Music Note Picture"/>
                 </div>
                 <section className="one">
                     <form onSubmit={onSubmit} id="contact-form">
