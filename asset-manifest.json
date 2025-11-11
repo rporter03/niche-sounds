@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/niche-sounds/static/css/main.091ddb24.css",
-    "main.js": "/niche-sounds/static/js/main.bc072605.js",
+    "main.css": "/niche-sounds/static/css/main.e0abb7dd.css",
+    "main.js": "/niche-sounds/static/js/main.17d74637.js",
     "static/media/records.webp": "/niche-sounds/static/media/records.450d4c11f8db42be457d.webp",
     "static/media/music-note.jpg": "/niche-sounds/static/media/music-note.39804ef4381e238662ca.jpg",
     "static/media/battles.jpg": "/niche-sounds/static/media/battles.8c5559cf2ba90fb08cf1.jpg",
@@ -9,11 +9,11 @@
     "static/media/music.jpg": "/niche-sounds/static/media/music.eb70c44f9b65a870c7b3.jpg",
     "static/media/forth-wanderers.jpg": "/niche-sounds/static/media/forth-wanderers.9102487c195d1a3424cd.jpg",
     "index.html": "/niche-sounds/index.html",
-    "main.091ddb24.css.map": "/niche-sounds/static/css/main.091ddb24.css.map",
-    "main.bc072605.js.map": "/niche-sounds/static/js/main.bc072605.js.map"
+    "main.e0abb7dd.css.map": "/niche-sounds/static/css/main.e0abb7dd.css.map",
+    "main.17d74637.js.map": "/niche-sounds/static/js/main.17d74637.js.map"
   },
   "entrypoints": [
-    "static/css/main.091ddb24.css",
-    "static/js/main.bc072605.js"
+    "static/css/main.e0abb7dd.css",
+    "static/js/main.17d74637.js"
   ]
 }
