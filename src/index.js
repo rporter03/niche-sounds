@@ -7,6 +7,7 @@ import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import DiscoverArtists from './pages/Discover-Artists';
+import Artists from './pages/Browse-Artists';
 import Forums from './pages/Forums';
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="blog" element={<Blog />}/>
           <Route path="contact" element={<Contact />}/>
           <Route path="discover-artists" element={<DiscoverArtists />}/>
+          <Route path="browse-artists" element={<Artists />}/>
           <Route path="forums" element={<Forums />}/>
         </Route>
       </Routes>

@@ -1,4 +1,4 @@
-import "../css/House.css";
+// import css
 import {useState} from "react";
 import ArtistDialog from "./ArtistDialog";
 
@@ -20,13 +20,14 @@ const Artist = (props) => {
                     artist={props.artist}
                     genre={props.genre}
                     description={props.Description}
-                    main_image={props.main_image}/>
+                    img={props.img}/>
             ):("")}
             <section className="artist" onClick={showArtistDetails}>
-                <img src={"https://server-niche-sounds.onrender.com/images"+props.main_image} alt="artist" />
+                <img src={"https://server-niche-sounds.onrender.com/images"+props.img} alt="artist" />
                 <div className="artist-description">
                     <h1>{props.artist}</h1>
                     <p>Genre: {props.genre}</p>
+                    <p>Description: {props.Description}</p>
                 </div>
             </section>
         </>

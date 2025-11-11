@@ -1,6 +1,6 @@
 import {useState, useEffect} from "react";
 import axios from "axios";
-// import css
+import './../css/Browse-Artists.css'
 import ArtistList from "../components/ArtistList";
 
 const Artists = () => {

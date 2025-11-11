@@ -1,5 +1,6 @@
 import './../css/Discover-Artists.css';
 import recordImage from './../images/records.webp';
+import { Link } from 'react-router-dom';
 
 const DiscoverArtists = () => {
     return (
@@ -18,7 +19,7 @@ const DiscoverArtists = () => {
                 </div>
             </section>
             <div>
-                <a href="browse-artists.html" class="browse-artists">Click Here to Browse Artists</a>
+                <Link to="/browse-artists" className="browse-artists">Click Here to Browse Artists</Link>
             </div>
         </main>
     );
