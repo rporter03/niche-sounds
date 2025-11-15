@@ -23,11 +23,11 @@ const Artist = (props) => {
                     img={props.img}/>
             ):("")}
             <section className="artist" onClick={showArtistDetails}>
-                <img src={"https://server-niche-sounds.onrender.com/images"+props.img} alt="artist" />
+                <img src={"https://server-niche-sounds.onrender.com/"+props.img} alt="artist" />
                 <div className="artist-description">
                     <h1>{props.artist}</h1>
                     <p>Genre: {props.genre}</p>
-                    <p>Description: {props.Description}</p>
+                    <p>{props.Description}</p>
                 </div>
             </section>
         </>

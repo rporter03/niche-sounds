@@ -1,4 +1,4 @@
-// import "./../css/Dialog.css";
+import "./../css/Dialog.css";
 
 const ArtistDialog = (props) => {
     return (
@@ -13,11 +13,11 @@ const ArtistDialog = (props) => {
                         &times;
                     </span>
                     <div className="columns">
-                        <img src={"https://server-niche-sounds.onrender.com/images"+props.img} alt="artist" />
+                        <img src={"https://server-niche-sounds.onrender.com/"+props.img} alt="artist" />
                         <div id="dialog-content">
                             <h3>{props.artist}</h3>
                             <p>Genre: {props.genre}</p>
-                            <p>Description: {props.Description}</p>
+                            <p>{props.Description}</p>
                         </div>
                     </div>
                 </div>

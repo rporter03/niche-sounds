@@ -23,7 +23,7 @@ const ArtistList = (props) => {
                         id={artist._id}
                         artist={artist.artist} 
                         genre={artist.genre}
-                        description={artist.Description} 
+                        Description={artist.Description} 
                         img={artist.img} />
             ))}
         </div>
