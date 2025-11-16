@@ -49,13 +49,13 @@ body {
     color:black;
 }
 
-#featured-artists a:hover .artist-link {
+#featured-artists a:hover .artist-link:hover {
     color:var(--lavender);
     background-color:var(--secondary-color);
     border-radius:5px;
 }
 
-.artist {
+#featured-artists .artist {
     background:var(--secondary-color);
     border-radius:10px;
     padding:10px;
@@ -63,6 +63,7 @@ body {
     flex-direction:column;
     align-items:center;
     margin-bottom:20px;
+    flex:none;
 }
 
 .artist img {
