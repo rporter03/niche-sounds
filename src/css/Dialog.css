@@ -4,6 +4,15 @@
     background-color: rgba(0, 0, 0, .6);
 }
 
+.w3-modal-content {
+  background:var(--tertiary-color);
+  max-height:300px;
+}
+
+.w3-container {
+  
+}
+
 #dialog-section {
   position: relative;
 }
@@ -15,12 +24,43 @@
   display: block;
 }
 
+#artist-dialog img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 0;
+  order: 2;
+  margin-top:50px;
+  margin-right:100px;
+}
+
+#artist-dialog .columns {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+}
+
 #delete-content {
   margin-bottom: 10px;
 }
 
 #dialog-content {
-  margin-left:10px;
+  flex: 1;
+  margin-left: 0;
+  text-align: left;
+}
+
+#dialog-content h3, #dialog-content p {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#dialog-content p {
+  background:transparent;
+  margin-left:0;
+  padding:0;
 }
 
 #img-prev {

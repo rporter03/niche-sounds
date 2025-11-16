@@ -17,7 +17,7 @@ const ArtistDialog = (props) => {
                         <div id="dialog-content">
                             <h3>{props.artist}</h3>
                             <p>Genre: {props.genre}</p>
-                            <p>{props.Description}</p>
+                            <p>{props.description}</p>
                         </div>
                     </div>
                 </div>

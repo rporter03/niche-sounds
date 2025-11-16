@@ -25,9 +25,8 @@ const Artist = (props) => {
             <section className="artist" onClick={showArtistDetails}>
                 <img src={"https://server-niche-sounds.onrender.com/"+props.img} alt="artist" />
                 <div className="artist-description">
-                    <h1>{props.artist}</h1>
-                    <p>Genre: {props.genre}</p>
-                    <p>{props.Description}</p>
+                    <h3>{props.artist}</h3>
+                    <p>{props.genre}</p>
                 </div>
             </section>
         </>

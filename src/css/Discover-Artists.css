@@ -31,3 +31,39 @@
     padding:10px;
     border-radius:10px;
 }
+
+/* browse artists */
+.artist {
+    background:var(--primary-color);
+    align-items: center;
+    flex: 0 0 calc(25% - 20px);
+}
+
+.artist:hover {
+    background:var(--tertiary-color);
+    cursor: pointer;
+}
+
+.artist p {
+    text-align: center;
+}
+
+#discover-artists .artist img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+#discover-artists .artist-description p {
+    background:transparent;
+}
+
+#artist-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}

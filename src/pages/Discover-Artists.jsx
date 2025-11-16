@@ -1,5 +1,6 @@
 import './../css/Discover-Artists.css';
 import recordImage from './../images/records.webp';
+import ArtistList from "../components/ArtistList";
 import { Link } from 'react-router-dom';
 
 const DiscoverArtists = () => {
@@ -18,8 +19,9 @@ const DiscoverArtists = () => {
                     <img src={recordImage} alt="Record Stack Image"/>
                 </div>
             </section>
-            <div>
-                <Link to="/browse-artists" className="browse-artists">Click Here to Browse Artists</Link>
+            <div id="artists">
+                <h2>Browse Artists</h2>
+                <ArtistList num="9" />
             </div>
         </main>
     );
