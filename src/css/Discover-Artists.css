@@ -33,18 +33,18 @@
 }
 
 /* browse artists */
-.artist {
+#disocver-artists .artist {
     background:var(--primary-color);
     align-items: center;
     flex: 0 0 calc(25% - 20px);
 }
 
-.artist:hover {
+#disocver-artists .artist:hover {
     background:var(--tertiary-color);
     cursor: pointer;
 }
 
-.artist p {
+#disocver-artists .artist p {
     text-align: center;
 }
 
