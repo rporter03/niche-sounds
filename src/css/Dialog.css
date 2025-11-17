@@ -67,6 +67,66 @@
   margin-right: 10px;
 }
 
+/* add artist dialog */
+#add-artist-form {
+  text-align: left;
+  width: 100%;
+}
+
+#add-artist-form .columns {
+  background: transparent;
+  display: block;
+}
+
+#add-artist-form h3 {
+  margin-top: 2;
+  margin-bottom: 20px;
+}
+
+#add-artist-form p {
+  margin: 0 0 15px 0;
+  padding: 0;
+  background: transparent;
+}
+
+#add-artist-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#add-artist-form input[type="text"],
+#add-artist-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 0;
+  box-sizing: border-box;
+  background: white;
+}
+
+#add-artist-form input[type="file"] {
+  cursor: pointer;
+}
+
+#add-artist-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: var(--main-background-color);
+  color:var(--secondary-color);
+  cursor: pointer;
+}
+
+#add-artist-form button:hover {
+  background: var(--primary-color);
+  color:black;
+}
+
+#add-dialog .w3-modal-content {
+  background: var(--tertiary-color);
+  min-height: 615px;
+  height: auto;
+}
+
 @media only screen and (min-width: 600px) {
   #img-prev-section {
     flex: 1;

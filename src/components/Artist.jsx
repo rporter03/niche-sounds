@@ -1,4 +1,3 @@
-// import css
 import {useState} from "react";
 import ArtistDialog from "./ArtistDialog";
 
