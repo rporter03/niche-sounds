@@ -20,6 +20,14 @@ const ArtistList = (props) => {
         setArtists((artists)=>[...artists, artist]);
     };
 
+    const editArtist = (updatedArtist) => {
+    setArtists((artists) => artists.map(a => (a._id === updatedArtist._id ? updatedArtist : a)));
+    };
+    
+    const deleteArtist = (artistId) => {
+    setArtists((artists) => artists.filter(artist => artist._id !== artistId));
+    };
+
     //after page has loaded
     useEffect(()=>{
         const loadArtists = async() => {
@@ -39,7 +47,9 @@ const ArtistList = (props) => {
                             artist={artist.artist} 
                             genre={artist.genre}
                             Description={artist.Description} 
-                            img={artist.img} />
+                            img={artist.img} 
+                            deleteArtist={deleteArtist} 
+                            editArtist={editArtist} />
                 ))}
             </div>
             <button id="add-artist" onClick={openAddDialog}>Add a New Artist</button>

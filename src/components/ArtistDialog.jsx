@@ -18,6 +18,10 @@ const ArtistDialog = (props) => {
                             <h3>{props.artist}</h3>
                             <p>Genre: {props.genre}</p>
                             <p>{props.description}</p>
+                            <div className="dialog-buttons">
+                                <button onClick={props.openEditDialog}>Edit Artist</button>
+                                <button onClick={props.openDeleteDialog}>Delete Artist</button>
+                            </div>
                         </div>
                     </div>
                 </div>
