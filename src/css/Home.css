@@ -26,6 +26,9 @@ body {
 
 #featured-artists {
     text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #featured-artists h2, #about h2, #blog h2, #discover-artists h2, #forums h2, #contact h2 {
